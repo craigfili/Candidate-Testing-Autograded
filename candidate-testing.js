@@ -52,9 +52,7 @@ function gradeQuiz(candidateAnswers) {
 
     for (i = 0; i < totalQuestions; ++i){
       if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()){
-        console.log(candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase());
         totalCorrectAnswers++;
-        console.log(totalCorrectAnswers);
       }
     }
 
